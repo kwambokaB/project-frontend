@@ -1,0 +1,19 @@
+{
+  "name": "project-frontend",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DThis is the front end react app of the health app\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwambokaB/project-frontend.git"
+  },
+  "author": "kwambokaB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwambokaB/project-frontend/issues"
+  },
+  "homepage": "https://github.com/kwambokaB/project-frontend#readme"
+}
