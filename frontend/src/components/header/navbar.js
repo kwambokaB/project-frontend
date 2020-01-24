@@ -3,18 +3,23 @@ import React from 'react';
 
 function Navbar(){
     return(
-        <div className = 'nav-bar'>
-        <nav>
-            <ul>
-                <li><a href='#'>About us</a></li>
-                <li><a href='#'>Become a councellor</a></li>
-                <li><a href='#'>blog</a></li>
-                <li><a href='#'></a>contact</li>
-                <li><a href='#'>login</a></li>
-            </ul>
+        <header>
+        <h1 className="logo">Logo</h1>
+      
+          <input type="checkbox" id="nav-toggle" className="nav-toggle"></input>
+        <nav className="nav-bar">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
-
-        </div>
+        <label htmlFor="nav-toggle" className="nav-toggle-label">
+            <span></span>
+        </label>
+      </header>
+      
     );
 };
 export default Navbar;

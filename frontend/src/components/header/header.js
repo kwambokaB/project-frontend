@@ -4,7 +4,7 @@ import Logo from './logo';
 
 function Header(){
     return(
-        <div className='header'>
+        <div className='container'>
           <div>
             <Logo />
           </div>
@@ -14,3 +14,4 @@ function Header(){
         </div>
     )
 }
+export default Header;
