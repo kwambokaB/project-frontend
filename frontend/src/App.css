@@ -1,0 +1,9 @@
+:root {
+    --background: rgba();
+
+}
+
+
+*, *:before, *::after{
+    box-sizing: border-box;
+}
