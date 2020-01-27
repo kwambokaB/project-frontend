@@ -1,0 +1,41 @@
+
+:root {
+    --background: rgba(127, 245, 221, 0.55);
+  }
+  
+.section-1{
+    display: grid;
+    grid-row: 2 / auto;
+    background-image: url('../../assets/images/hands-people-friends-communication-45842.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+.section-1 .card{
+    background: var(--background);
+    padding: 50px;
+}
+.section-1 #description{
+    display: grid;
+    grid-column: 2 / 7;
+    grid-row: 2/ 8;
+    margin-top: 100px;
+    margin-left: 70px;
+    align-items: center;
+}
+.section-1 #signup{
+    display: grid;
+    grid-column: 6 / 9;
+    grid-row: 4 / 9;
+    margin-top: 50px;
+    margin-right: 70px;
+    justify-content: center;
+    z-index: 10;
+    align-items: center;
+}
+.button{
+    grid-column: 3 / 7;
+    grid-row: 10 / auto;
+    display: flex;
+    justify-content: space-around;
+}
